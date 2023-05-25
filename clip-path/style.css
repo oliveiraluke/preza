@@ -1,0 +1,55 @@
+html
+{
+    /* paleta de cores */
+    --color-primary: #B6FF00; 
+    --color-secondary: #FF0D8C;   
+    --color-black: #111111;
+    --color-white: #FFFFFF;
+
+    /* font */     
+    font-size: 18px;
+    
+}
+
+body 
+{
+  /*display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  place-items: center;*/
+  margin: 0;
+  background-color: var(--color-primary);
+}
+
+.container 
+{
+  width: 100vw;
+  height: 100vh;
+  background: var(--color-primary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mask 
+{
+  max-width: 400px;
+  max-height: 400px;
+}
+
+#mask1 
+{
+  clip-path: url(#clipPath1);
+}
+  
+img
+{
+  max-height: 100%;
+  display: block;
+}
+
+.svg {
+  width: 0px;
+  height: 0px;
+  position: absolute;
+}
